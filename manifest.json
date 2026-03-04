@@ -1,8 +1,14 @@
 {
   "name": "DOMINION",
   "short_name": "DOMINION",
-  "start_url": "index.html",
+  "description": "Offline PWA do codziennego trackowania progresu rozwoju.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0f0f0f",
-  "theme_color": "#0f0f0f"
+  "background_color": "#0b0f14",
+  "theme_color": "#0b0f14",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
 }
